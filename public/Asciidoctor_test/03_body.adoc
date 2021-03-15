@@ -1,0 +1,14 @@
+:sectnums:
+//넘버링 각 문서 시작에 써야 개별 문서 프리뷰에서 적용
+:hardbreaks:
+//자동 줄바꿈 각 문서 시작에 써야 개별 문서 프리뷰에서 적용
+
+
+= Modbus Mapping Table
+
+== Read coil status(Func 01) / Force single coil(Func 05) / Force multiple coils(Func 15)
+
+[options="header, autowidth",format=csv,frame=topbot]
+|===
+include::address1.csv[]
+|===
