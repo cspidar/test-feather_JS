@@ -12,3 +12,4 @@ var html = asciidoctor.convert('Hello, _Asciidoctor_')
 console.log(html)
 
 document.getElementById("target_ascii").innerHTML=html;
+//
